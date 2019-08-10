@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <_name>Distortion</_name>
+    <id>org.pub.dIstorsion</id>
+    <dependency type="executable" location="extensions">distortion.py</dependency>
+    <dependency type="executable" location="extensions">inkex.py</dependency>
+    <dependency type="executable" location="extensions">simplepath.py</dependency>
+    <dependency type="executable" location="extensions">simplestyle.py</dependency>
+    <dependency type="executable" location="extensions">cubicsuperpath.py</dependency>
+    <dependency type="executable" location="extensions">bezmisc.py</dependency>
+    <param name="lambda" type="float" min="-1000.0"  max="0.0"  precision="2"  _gui-text="Lambda parameter">-1.0</param>
+            <effect>
+                <object-type>all</object-type>
+                    <effects-menu>
+                        <submenu _name="Science"/> <!-- which menu under Extensions -->
+                            </effects-menu>
+                                </effect>
+                                <!-- py file again -->
+                                    <script>
+                                        <command reldir="extensions" interpreter="python">distortion.py</command>
+                                    </script>
+</inkscape-extension>
