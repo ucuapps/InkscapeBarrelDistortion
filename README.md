@@ -1,6 +1,11 @@
+# BarrelDistortion (Inkscape extension)
 
-# InkscapeBarrelDistorsion
+This extension can apply Barrel distortion on the path objects in the Inkscape graphic redactor.
 
-This extension can apply Barrel distorsion effect to path object in Inkscape graphic redactor.  
-User can configure distortion by tunning distortion parameter, called lambda in extension gui.  
-You can find instructions how to install this extension in INSTALL file.  
+User can configure distortion by tuning distortion parameter called lambda in extension GUI.  
+
+## Installation
+
+Just put [distortion.py](./distortion.py) and [distortion.inx](./distortion.inx) into your Inkscape extensions directory.
+
+For detailed instructions see [INSTALL](./INSTALL) file.
