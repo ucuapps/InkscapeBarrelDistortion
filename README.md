@@ -8,6 +8,6 @@ User can configure distortion by tuning distortion parameter called lambda in ex
 
 Just put [distortion.py](./distortion.py) and [distortion.inx](./distortion.inx) into your Inkscape extensions directory.
 
-For **MacOS** it is `~/.config/inkscape/extensions` (Inkscape 0.92.2, default)
+E.g., for **MacOS** it is `~/.config/inkscape/extensions` (by default in Inkscape 0.92.2)
 
 For detailed instructions see [INSTALL](./INSTALL) file.
